@@ -6,7 +6,7 @@ int main() {
   int desconto;
   const float VALOR_BASE = 100.0;
   
- while(idade_minima, desconto != 1){
+ while(idade_minima, desconto != -1){
 printf("Nome completo do participante: ");
 fgets(nome, 100 , stdin);
 
