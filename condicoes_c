@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+const int IDADE_MINIMA = 18;
+
+while(IDADE_MINIMA != -1){
+printf("Digite sua idade: ");
+scanf("%d", &IDADE_MINIMA);
+if(IDADE_MINIMA >= 60){
+    printf("Maior de idade e idoso.\n");
+}
+else if(IDADE_MINIMA < 18){
+    printf("Menor de Idade, acesso negado.\n");
+}else if ((IDADE_MINIMA >= 18) && (IDADE_MINIMA <= 59)){
+    printf("Maior de idade.\n");
+}
+}
+    return 0;
+}
